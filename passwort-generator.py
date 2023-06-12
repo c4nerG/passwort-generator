@@ -32,3 +32,4 @@ def generate_random_password():
     print("\nHier ist dein neues Passwort: " + "".join(password) + "\n")
 
 generate_random_password()
+print(" ")
