@@ -30,6 +30,6 @@ def generate_random_password():
     random.shuffle(password)
 
     print("\nHier ist dein neues Passwort: " + "".join(password) + "\n")
+    input("Drücke Enter, um das Programm zu beenden.")
 
 generate_random_password()
-print(" ")
